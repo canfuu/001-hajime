@@ -1,0 +1,29 @@
+id: hajime
+version: 0.3.0
+namespace: official.hajime
+requires:
+  - soul
+skills:
+  - 001-safety
+  - 001-self-evolve
+agents:
+  - id: hajime
+    name: hajime
+    system-prompts:
+      - soul:soul.md
+      - self:hajime.md
+    skills:
+      - 001-safety
+      - 001-self-evolve
+    model: ultimate
+    tools:
+      - Bash
+      - Read
+      - Write
+      - Edit
+      - Glob
+      - Grep
+      - WebSearch
+      - WebFetch
+      - ImageSearch
+      - ImageGen

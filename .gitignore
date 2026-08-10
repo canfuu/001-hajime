@@ -1,0 +1,7 @@
+# 非源、可再生、含密：不跟踪、不打包
+/bin/
+/caps/
+/build/
+/state/
+/learning/
+/skills/.trash/
